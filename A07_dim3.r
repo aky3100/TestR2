@@ -10,3 +10,6 @@ wireframe(z~x+y, eg)
 
 t<-seq(-2*pi, 2*pi, length.out=200)
 cloud(z~x+y,data.frame(x=3*cos(t),y=3*sin(t), z=2*t))
+
+t<-seq(-2*pi, 2*pi, length.out=200)
+cloud(z~x+y,data.frame(x=3*cos(t),y=3*sin(t), z=2*t))
